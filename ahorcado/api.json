@@ -1,0 +1,458 @@
+{
+    "peliculas": [
+        {
+            "id": 1,
+            "nombre": "El sexto sentido",
+            "director": "M. Night Shyamalan",
+            "clasificacion": "Drama"
+        },
+        {
+            "id": 2,
+            "nombre": "Pulp Fiction",
+            "director": "Tarantino",
+            "clasificacion": "Acción"
+        },
+        {
+            "id": 3,
+            "nombre": "Todo Sobre Mi Madre",
+            "director": "Almodóvar",
+            "clasificacion": "Drama"
+        },
+        {
+            "id": 4,
+            "nombre": "300",
+            "director": "Zack Snyder",
+            "clasificacion": "Acción"
+        },
+        {
+            "id": 5,
+            "nombre": "El silencio de los corderos",
+            "director": "Jonathan Demme",
+            "clasificacion": "Drama"
+        },
+        {
+            "id": 6,
+            "nombre": "Forrest Gump",
+            "director": "Robert Zemeckis",
+            "clasificacion": "Comedia"
+        },
+        {
+            "id": 7,
+            "nombre": "Las Hurdes",
+            "director": "Luis Buñuel",
+            "clasificacion": "Documental"
+        }
+    ],
+    "clasificaciones": [
+        {
+            "nombre": "Drama",
+            "id": 1
+        },
+        {
+            "nombre": "Comedia",
+            "id": 2
+        },
+        {
+            "nombre": "Documental",
+            "id": 3
+        },
+        {
+            "nombre": "Acción",
+            "id": 4
+        }
+    ],
+    "palabras": [
+        {
+            "id": 1,
+            "palabra": "árbol"
+        },
+        {
+            "id": 2,
+            "palabra": "mesa"
+        },
+        {
+            "id": 3,
+            "palabra": "coche"
+        },
+        {
+            "id": 4,
+            "palabra": "perro"
+        },
+        {
+            "id": 5,
+            "palabra": "gato"
+        },
+        {
+            "id": 6,
+            "palabra": "libro"
+        },
+        {
+            "id": 7,
+            "palabra": "cielo"
+        },
+        {
+            "id": 8,
+            "palabra": "agua"
+        },
+        {
+            "id": 9,
+            "palabra": "fuego"
+        },
+        {
+            "id": 10,
+            "palabra": "tierra"
+        },
+        {
+            "id": 11,
+            "palabra": "nube"
+        },
+        {
+            "id": 12,
+            "palabra": "sol"
+        },
+        {
+            "id": 13,
+            "palabra": "luna"
+        },
+        {
+            "id": 14,
+            "palabra": "estrella"
+        },
+        {
+            "id": 15,
+            "palabra": "flor"
+        },
+        {
+            "id": 16,
+            "palabra": "mar"
+        },
+        {
+            "id": 17,
+            "palabra": "río"
+        },
+        {
+            "id": 18,
+            "palabra": "montaña"
+        },
+        {
+            "id": 19,
+            "palabra": "valle"
+        },
+        {
+            "id": 20,
+            "palabra": "bosque"
+        },
+        {
+            "id": 21,
+            "palabra": "ciudad"
+        },
+        {
+            "id": 22,
+            "palabra": "pueblo"
+        },
+        {
+            "id": 23,
+            "palabra": "calle"
+        },
+        {
+            "id": 24,
+            "palabra": "camino"
+        },
+        {
+            "id": 25,
+            "palabra": "puente"
+        },
+        {
+            "id": 26,
+            "palabra": "casa"
+        },
+        {
+            "id": 27,
+            "palabra": "edificio"
+        },
+        {
+            "id": 28,
+            "palabra": "escuela"
+        },
+        {
+            "id": 29,
+            "palabra": "hospital"
+        },
+        {
+            "id": 30,
+            "palabra": "iglesia"
+        },
+        {
+            "id": 31,
+            "palabra": "oficina"
+        },
+        {
+            "id": 32,
+            "palabra": "parque"
+        },
+        {
+            "id": 33,
+            "palabra": "jardín"
+        },
+        {
+            "id": 34,
+            "palabra": "playa"
+        },
+        {
+            "id": 35,
+            "palabra": "desierto"
+        },
+        {
+            "id": 36,
+            "palabra": "isla"
+        },
+        {
+            "id": 37,
+            "palabra": "volcán"
+        },
+        {
+            "id": 38,
+            "palabra": "glaciar"
+        },
+        {
+            "id": 39,
+            "palabra": "cueva"
+        },
+        {
+            "id": 40,
+            "palabra": "roca"
+        },
+        {
+            "id": 41,
+            "palabra": "arena"
+        },
+        {
+            "id": 42,
+            "palabra": "barco"
+        },
+        {
+            "id": 43,
+            "palabra": "avión"
+        },
+        {
+            "id": 44,
+            "palabra": "tren"
+        },
+        {
+            "id": 45,
+            "palabra": "bicicleta"
+        },
+        {
+            "id": 46,
+            "palabra": "moto"
+        },
+        {
+            "id": 47,
+            "palabra": "autobús"
+        },
+        {
+            "id": 48,
+            "palabra": "taxi"
+        },
+        {
+            "id": 49,
+            "palabra": "metro"
+        },
+        {
+            "id": 50,
+            "palabra": "carretera"
+        },
+        {
+            "id": 51,
+            "palabra": "semáforo"
+        },
+        {
+            "id": 52,
+            "palabra": "peatón"
+        },
+        {
+            "id": 53,
+            "palabra": "conductor"
+        },
+        {
+            "id": 54,
+            "palabra": "pasajero"
+        },
+        {
+            "id": 55,
+            "palabra": "ventana"
+        },
+        {
+            "id": 56,
+            "palabra": "puerta"
+        },
+        {
+            "id": 57,
+            "palabra": "techo"
+        },
+        {
+            "id": 58,
+            "palabra": "piso"
+        },
+        {
+            "id": 59,
+            "palabra": "pared"
+        },
+        {
+            "id": 60,
+            "palabra": "escalera"
+        },
+        {
+            "id": 61,
+            "palabra": "ascensor"
+        },
+        {
+            "id": 62,
+            "palabra": "cocina"
+        },
+        {
+            "id": 63,
+            "palabra": "baño"
+        },
+        {
+            "id": 64,
+            "palabra": "dormitorio"
+        },
+        {
+            "id": 65,
+            "palabra": "salón"
+        },
+        {
+            "id": 66,
+            "palabra": "comedor"
+        },
+        {
+            "id": 67,
+            "palabra": "sofá"
+        },
+        {
+            "id": 68,
+            "palabra": "silla"
+        },
+        {
+            "id": 69,
+            "palabra": "televisión"
+        },
+        {
+            "id": 70,
+            "palabra": "ordenador"
+        },
+        {
+            "id": 71,
+            "palabra": "teléfono"
+        },
+        {
+            "id": 72,
+            "palabra": "radio"
+        },
+        {
+            "id": 73,
+            "palabra": "lámpara"
+        },
+        {
+            "id": 74,
+            "palabra": "reloj"
+        },
+        {
+            "id": 75,
+            "palabra": "cuadro"
+        },
+        {
+            "id": 76,
+            "palabra": "espejo"
+        },
+        {
+            "id": 77,
+            "palabra": "alfombra"
+        },
+        {
+            "id": 78,
+            "palabra": "cortina"
+        },
+        {
+            "id": 79,
+            "palabra": "armario"
+        },
+        {
+            "id": 80,
+            "palabra": "cajón"
+        },
+        {
+            "id": 81,
+            "palabra": "cuaderno"
+        },
+        {
+            "id": 82,
+            "palabra": "bolígrafo"
+        },
+        {
+            "id": 83,
+            "palabra": "lápiz"
+        },
+        {
+            "id": 84,
+            "palabra": "papel"
+        },
+        {
+            "id": 85,
+            "palabra": "borrador"
+        },
+        {
+            "id": 86,
+            "palabra": "regla"
+        },
+        {
+            "id": 87,
+            "palabra": "tijeras"
+        },
+        {
+            "id": 88,
+            "palabra": "goma"
+        },
+        {
+            "id": 89,
+            "palabra": "pizarra"
+        },
+        {
+            "id": 90,
+            "palabra": "mapa"
+        },
+        {
+            "id": 91,
+            "palabra": "globo"
+        },
+        {
+            "id": 92,
+            "palabra": "atlas"
+        },
+        {
+            "id": 93,
+            "palabra": "diccionario"
+        },
+        {
+            "id": 94,
+            "palabra": "enciclopedia"
+        },
+        {
+            "id": 95,
+            "palabra": "calculadora"
+        },
+        {
+            "id": 96,
+            "palabra": "mochila"
+        },
+        {
+            "id": 97,
+            "palabra": "lápices"
+        },
+        {
+            "id": 98,
+            "palabra": "marcadores"
+        }
+    ]
+}

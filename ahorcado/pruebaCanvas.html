@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <!-- Carga de la hoja de estilos -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Título del juego -->
+     <div>
+        <h2>Seleccione la dificultad del juego</h2>
+        <button id="facil">Facil</button> <button id="medio">Medio</button> <button id="dificil">dificil</button> <button id="imposible">imposible</button>
+            <h1>Juego del Ahorcado</h1>
+            
+            <!-- Canvas donde se dibujará el ahorcado -->
+            <canvas id="ahorcadoCanvas" width="200" height="200"></canvas>
+            
+            <!-- La palabra a adivinar, mostrada como guiones bajos -->
+            <p id="palabra">_ _ _ _ _ _ _</p>
+            
+            <!-- Indicador de intentos restantes -->
+            <p>Intentos restantes: <span id="intentos"> selecione dificultad</span></p>
+            
+            <!-- Input para ingresar una letra -->
+            <input type="text" id="letra" maxlength="1" autofocus>
+            
+            <!-- Botón para enviar la letra -->
+            <button id="enviarLetra">Enviar letra</button>
+            
+            <!-- Lista de letras ingresadas incorrectamente -->
+            <p>Letras ingresadas: <span id="letrasPulsadas"></span></p>
+            
+            <!-- Mensaje de resultado (ganar o perder) -->
+            <p id="mensaje"></p>
+
+            <!-- Botón para empezar de nuevo -->
+           <button id="reiniciar">Reiniciar Juego</button>
+
+           <ul id="puntuaciones"></ul>
+            
+
+      <!-- Carga del archivo JavaScript -->
+    <script src="/pruebaCanvas.js"></script>
+
+
+
+    <!-------------Soniditos------------->
+    <audio id="acierto" >
+        <source type="audio/wav" src="/sonidos/acierto.mp3">
+    </audio>
+    <audio id="error" >
+        <source type="audio/wav" src="/sonidos/error.mp3">
+    </audio>
+    <audio id="ganador" >
+        <source type="audio/wav" src="/sonidos/ganador.mp3">
+    </audio>
+    <audio id="perdedor" >
+        <source type="audio/wav" src="/sonidos/perdedor.mp3">
+    </audio>
+</body>
+</html>

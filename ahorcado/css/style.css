@@ -1,0 +1,118 @@
+/* Estilos básicos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff6347;
+}
+
+#ahorcadoCanvas {
+    border: 2px solid #333;
+    margin: 20px auto;
+    padding: 10px 10px;
+    display: block;
+}
+
+#palabra {
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+#intentos {
+    font-weight: bold;
+}
+
+#letra {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#enviarLetra {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#enviarLetra:hover {
+    background-color: #ff4500;
+}
+
+#letrasPulsadas {
+    font-style: italic;
+}
+
+#mensaje {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#empezar {
+    display: none;
+    margin: 0, auto;
+}
+
+#facil {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#medio {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#dificil {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#imposible {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#reiniciar {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+body {
+    background-image: url("/img/fondo.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+h2 {
+    color : #ff6347;
+}
+#audio{
+    display: none
+    }
